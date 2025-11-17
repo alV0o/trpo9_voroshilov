@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="StatusBarColor" Color="LightGray"/>
+    <SolidColorBrush x:Key="MouseOnAddBtn" Color="LightGreen"/>
+    <SolidColorBrush x:Key="MouseOnDeleteBtn" Color="IndianRed"/>
+    <SolidColorBrush x:Key="BorderColor" Color="#272727"/>
+</ResourceDictionary>
