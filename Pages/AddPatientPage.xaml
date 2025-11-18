@@ -72,6 +72,7 @@
         <Button Grid.Column="1"
                 Grid.Row="7"
                 Content="Добавить"
-                Click="AddNewPatient"/>
+                Click="AddNewPatient"
+                Style="{StaticResource AddButton}"/>
     </Grid>
 </Page>

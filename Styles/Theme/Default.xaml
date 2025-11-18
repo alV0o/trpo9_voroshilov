@@ -9,4 +9,6 @@
     <SolidColorBrush x:Key="PressedDefBtn" Color="AntiqueWhite"/>
     <SolidColorBrush x:Key="AddButtonColor" Color="#256e00"/>
     <SolidColorBrush x:Key="PressedAddBtn" Color="#184502"/>
+    <SolidColorBrush x:Key="DeleteButtonColor" Color="#a10000"/>
+    <SolidColorBrush x:Key="PressedDelBtn" Color="#4f0000"/>
 </ResourceDictionary>
