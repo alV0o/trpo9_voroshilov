@@ -8,14 +8,7 @@
       d:DesignHeight="500" d:DesignWidth="400"
       Title="MainPage"
       Background="White">
-    <Page.Resources>
-        <Style TargetType="Button"
-               x:Key="BarButtons"
-               BasedOn="{StaticResource {x:Type Button}}">
-            <Setter Property="Margin" Value="0,0,10,0"/>
-        </Style>
-    </Page.Resources>
-    
+
     <DockPanel HorizontalAlignment="Center"
                LastChildFill="False">
         <Button Content="Назад"
@@ -63,12 +56,11 @@
             <Button Content="Создать пациента"
                     Grid.Column="0"
                     Grid.Row="0"
-                    Style="{StaticResource BarButtons}"
+                    Style="{StaticResource AddButton}"
                     Click="AddPatient"/>
             <Button Content="Начать прием"
                     Grid.Column="1"
                     Grid.Row="0"
-                    Style="{StaticResource BarButtons}"
                     Click="StartAppointment"/>
             <Button Content="Изменить информацию"
                     Grid.Column="2"

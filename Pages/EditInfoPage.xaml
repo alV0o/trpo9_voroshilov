@@ -49,12 +49,14 @@
                 Grid.Row="6"
                 Grid.ColumnSpan="2"
                 Content="Сбросить"
-                Click="ResetPatient"/>
+                Click="ResetPatient"
+                Style="{StaticResource DeleteButton}"/>
         <Button Grid.Column="0"
                 Grid.Row="7"
                 Grid.ColumnSpan="2"
                 Content="Сохранить"
-                Click="SaveChanges"/>
+                Click="SaveChanges"
+                Style="{StaticResource AddButton}"/>
         <TextBox Grid.Row="1"
                  Grid.Column="1"
                  Text="{Binding Name, Mode=TwoWay}"/>

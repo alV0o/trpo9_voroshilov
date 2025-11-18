@@ -4,4 +4,9 @@
     <SolidColorBrush x:Key="MouseOnAddBtn" Color="LightGreen"/>
     <SolidColorBrush x:Key="MouseOnDeleteBtn" Color="IndianRed"/>
     <SolidColorBrush x:Key="BorderColor" Color="#272727"/>
+    <SolidColorBrush x:Key="DefaultButtonColor" Color="#949494"/>
+    <SolidColorBrush x:Key="MouseOnDefBtn" Color="#000"/>
+    <SolidColorBrush x:Key="PressedDefBtn" Color="AntiqueWhite"/>
+    <SolidColorBrush x:Key="AddButtonColor" Color="#256e00"/>
+    <SolidColorBrush x:Key="PressedAddBtn" Color="#184502"/>
 </ResourceDictionary>

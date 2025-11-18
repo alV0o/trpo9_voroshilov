@@ -12,6 +12,8 @@
                 <ResourceDictionary Source="/Styles/UI/RowDefinition.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/WrapPanel.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/ListView.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/RowDefinitionNone.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/AddButton.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
