@@ -5,9 +5,8 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:trpo7_voroshilov_pr.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="500" d:DesignWidth="400"
-      Title="MainPage"
-      Background="White">
+      d:DesignHeight="700" d:DesignWidth="400"
+      Title="MainPage">
 
     <DockPanel HorizontalAlignment="Center"
                LastChildFill="False">
@@ -33,7 +32,8 @@
                    Grid.Row="1"
                    Grid.Column="0"/>
             <TextBlock Grid.Row="0"
-                       Grid.Column="1">
+                       Grid.Column="1"
+                       Style="{StaticResource TextBlockKey}">
                 <Run Text="{Binding Name}"/>
                 <Run Text="{Binding LastName}"/>
                 <Run Text="{Binding MiddleName}"/>
@@ -47,6 +47,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition Style="{StaticResource NoneHeight}"/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
@@ -92,6 +93,12 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <Button Content="Удалить"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3"
+                    Grid.Row="2"
+                    Style="{StaticResource DeleteButton}"
+                    Click="DeletePatient"/>
         </Grid>
         <WrapPanel x:Name="StatusBar"
                    DockPanel.Dock="Bottom">

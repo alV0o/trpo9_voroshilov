@@ -6,8 +6,7 @@
       xmlns:local="clr-namespace:trpo7_voroshilov_pr.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="EditInfoPage"
-      Background="White">
+      Title="EditInfoPage">
     <Grid x:Name="UpdatePatient">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -49,8 +48,7 @@
                 Grid.Row="6"
                 Grid.ColumnSpan="2"
                 Content="Сбросить"
-                Click="ResetPatient"
-                Style="{StaticResource DeleteButton}"/>
+                Click="ResetPatient"/>
         <Button Grid.Column="0"
                 Grid.Row="7"
                 Grid.ColumnSpan="2"

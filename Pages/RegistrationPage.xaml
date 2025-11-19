@@ -6,8 +6,7 @@
       xmlns:local="clr-namespace:trpo7_voroshilov_pr.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="RegistrationPage"
-      Background="white">
+      Title="RegistrationPage">
 
     <Grid x:Name="RegisterDoctor">
         <Grid.ColumnDefinitions>
@@ -46,7 +45,8 @@
                Grid.Row="6"
                Grid.Column="0"/>
         <TextBlock Grid.Row="7"
-                   Grid.Column="0">
+                   Grid.Column="0"
+                   Style="{StaticResource TextBlockKey}">
             <Run Text="Ваш ID: "/>
             <Run Text="{Binding ID, UpdateSourceTrigger=PropertyChanged}"/>
         </TextBlock>

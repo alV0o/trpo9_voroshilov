@@ -1,6 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Style TargetType="WrapPanel">
-        <Setter Property="Background" Value="{StaticResource StatusBarColor}"/>
+        <Setter Property="Background" Value="{DynamicResource StatusBarColor}"/>
     </Style>
 </ResourceDictionary>

@@ -3,8 +3,8 @@
     <Style TargetType="Button"
             x:Key="DeleteButton"
             BasedOn="{StaticResource {x:Type Button}}">
-        <Setter Property="Background" Value="{StaticResource DeleteButtonColor}"/>
-        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="{DynamicResource DeleteButtonColor}"/>
+        <Setter Property="Foreground" Value="{DynamicResource TextColorFirst}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
@@ -24,12 +24,12 @@
         </Setter>
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="{StaticResource MouseOnDeleteBtn}"/>
-                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="Background" Value="{DynamicResource MouseOnDeleteBtn}"/>
+                <Setter Property="Foreground" Value="{DynamicResource TextColorSecond}"/>
             </Trigger>
             <Trigger Property="IsPressed" Value="True">
-                <Setter Property="Background" Value="{StaticResource PressedDelBtn}"/>
-                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Background" Value="{DynamicResource PressedDelBtn}"/>
+                <Setter Property="Foreground" Value="{DynamicResource TextColorFirst}"/>
             </Trigger>
         </Style.Triggers>
     </Style>

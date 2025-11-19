@@ -15,6 +15,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using trpo7_voroshilov_pr.Class;
+
 namespace trpo7_voroshilov_pr.Pages
 {
     /// <summary>
@@ -63,6 +65,14 @@ namespace trpo7_voroshilov_pr.Pages
         private void EditInfo(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new EditInfoPage(patient));
+        }
+
+        private void DeleteAppointment(object sender, RoutedEventArgs e)
+        {
+            patient.AppointmentStories.Remove(patient.SelectedAppointment);
+            string jsonString = JsonSerializer.Serialize(patient);
+            string fileName = $"P_{patient.ID.ToString().PadLeft(7, '0')}.json";
+            File.WriteAllText(fileName, jsonString);
         }
     }
 }

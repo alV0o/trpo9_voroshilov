@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:trpo7_voroshilov_pr"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="1000">
+        Title="MainWindow" Height="600" Width="1000"
+        Background="{DynamicResource BackgroundApp}">
     <Grid>
         <Frame Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        <Button Content="Меню" Width="100" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" Click="Menu"/>
+        <!--<Menu>
+            <Button>
+            <MenuItem Header="Меню">
+                
+            </MenuItem>
+        </Menu>-->
     </Grid>
 </Window>

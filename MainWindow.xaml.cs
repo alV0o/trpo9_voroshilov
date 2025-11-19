@@ -11,6 +11,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using trpo7_voroshilov_pr.Class;
+
 namespace trpo7_voroshilov_pr
 {
     /// <summary>
@@ -22,6 +24,11 @@ namespace trpo7_voroshilov_pr
         {
             InitializeComponent();
             MainFrame.Navigate(new Pages.LoginPage());
+        }
+
+        private void Menu(object sender, RoutedEventArgs e)
+        {
+            ThemeHelper.Toggle();
         }
     }
 }

@@ -16,6 +16,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using trpo7_voroshilov_pr.Class;
+
 namespace trpo7_voroshilov_pr.Pages
 {
     /// <summary>
@@ -96,6 +98,12 @@ namespace trpo7_voroshilov_pr.Pages
         private void Back(object sender, RoutedEventArgs e)
         {
             NavigationService.GoBack();
+        }
+
+        private void DeletePatient(object sender, RoutedEventArgs e)
+        {
+            File.Delete($"P_{SelectedPatient.ID.ToString().PadLeft(7, '0')}.json");
+            Patients.Remove(SelectedPatient);
         }
     }
 }

@@ -3,8 +3,8 @@
     <Style TargetType="Button"
             x:Key="AddButton"
             BasedOn="{StaticResource {x:Type Button}}">
-        <Setter Property="Background" Value="{StaticResource AddButtonColor}"/>
-        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="{DynamicResource AddButtonColor}"/>
+        <Setter Property="Foreground" Value="{DynamicResource TextColorFirst}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
@@ -24,12 +24,12 @@
         </Setter>
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="{StaticResource MouseOnAddBtn}"/>
-                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="Background" Value="{DynamicResource MouseOnAddBtn}"/>
+                <Setter Property="Foreground" Value="{DynamicResource TextColorSecond}"/>
             </Trigger>
             <Trigger Property="IsPressed" Value="True">
-                <Setter Property="Background" Value="{StaticResource PressedAddBtn}"/>
-                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Background" Value="{DynamicResource PressedAddBtn}"/>
+                <Setter Property="Foreground" Value="{DynamicResource TextColorFirst}"/>
             </Trigger>
         </Style.Triggers>
     </Style>

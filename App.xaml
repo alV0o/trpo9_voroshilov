@@ -7,6 +7,9 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Styles/Theme/Default.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/Label.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/TextBlock.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/TextBox.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/Button.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/BackButton.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/RowDefinition.xaml"/>

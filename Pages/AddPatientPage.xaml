@@ -6,8 +6,7 @@
       xmlns:local="clr-namespace:trpo7_voroshilov_pr.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="500"
-      Title="AddPatient"
-      Background="White">
+      Title="AddPatient">
 
     <Grid DockPanel.Dock="Top">
         <Grid.ColumnDefinitions>
@@ -65,7 +64,8 @@
                  Grid.Column="1"
                  Text="{Binding PhoneNumber, Mode=OneWayToSource}"/>
         <TextBlock Grid.Row="7"
-                   Grid.Column="0">
+                   Grid.Column="0"
+                   Style="{StaticResource TextBlockKey}">
             <Run Text="ID пациента:"/>
             <Run Text="{Binding ID}"/>
         </TextBlock>

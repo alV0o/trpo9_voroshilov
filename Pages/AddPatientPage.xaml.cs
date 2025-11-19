@@ -15,6 +15,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using trpo7_voroshilov_pr.Class;
+
 namespace trpo7_voroshilov_pr.Pages
 {
     /// <summary>
