@@ -220,3 +220,11 @@ C:\Users\st310-08\Desktop\Voroshilov\trpo9_voroshilov\obj\Debug\net8.0-windows\S
 C:\Users\st310-08\Desktop\Voroshilov\trpo9_voroshilov\obj\Debug\net8.0-windows\Styles\UI\TextBlock.baml
 C:\Users\st310-08\Desktop\Voroshilov\trpo9_voroshilov\obj\Debug\net8.0-windows\Styles\UI\TextBox.baml
 C:\Users\st310-08\Desktop\Voroshilov\trpo9_voroshilov\bin\Debug\net8.0-windows\trpo7_voroshilov_pr.dll.config
+D:\ProgrammingAll\3kurs\trpo9_voroshilov\bin\Debug\net8.0-windows\trpo7_voroshilov_pr.dll.config
+D:\ProgrammingAll\3kurs\trpo9_voroshilov\obj\Debug\net8.0-windows\Styles\Theme\DarkTheme.baml
+D:\ProgrammingAll\3kurs\trpo9_voroshilov\obj\Debug\net8.0-windows\Styles\UI\DeleteButton.baml
+D:\ProgrammingAll\3kurs\trpo9_voroshilov\obj\Debug\net8.0-windows\Styles\UI\Label.baml
+D:\ProgrammingAll\3kurs\trpo9_voroshilov\obj\Debug\net8.0-windows\Styles\UI\TextBlock.baml
+D:\ProgrammingAll\3kurs\trpo9_voroshilov\obj\Debug\net8.0-windows\Styles\UI\TextBox.baml
+D:\ProgrammingAll\3kurs\trpo9_voroshilov\obj\Debug\net8.0-windows\Styles\UI\Menu.baml
+D:\ProgrammingAll\3kurs\trpo9_voroshilov\obj\Debug\net8.0-windows\Styles\UI\MenuItem.baml

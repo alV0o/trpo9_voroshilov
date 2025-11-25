@@ -9,12 +9,11 @@
         Background="{DynamicResource BackgroundApp}">
     <Grid>
         <Frame Name="MainFrame" NavigationUIVisibility="Hidden"/>
-        <Button Content="Меню" Width="100" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" Click="Menu"/>
-        <!--<Menu>
-            <Button>
-            <MenuItem Header="Меню">
-                
+        <Menu>
+            <MenuItem Header="Настройки">
+                <MenuItem Header="Сменить тему"
+                          Click="Menu"/>
             </MenuItem>
-        </Menu>-->
+        </Menu>
     </Grid>
 </Window>

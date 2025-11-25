@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\st310-08\Desktop\Voroshilov\trpo9_voroshilov\obj\Debug\net8.0-windows\
+D:\ProgrammingAll\3kurs\trpo9_voroshilov\obj\Debug\net8.0-windows\
 trpo7_voroshilov_pr
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\st310-08\Desktop\Voroshilov\trpo9_voroshilov\App.xaml
-20501423093
+D:\ProgrammingAll\3kurs\trpo9_voroshilov\App.xaml
+22-1451701262
 
 161264626410
-198-192518753
-MainWindow.xaml;Pages\AddPatientPage.xaml;Pages\AppoinmentPage.xaml;Pages\EditInfoPage.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\RegistrationPage.xaml;Styles\Theme\DarkTheme.xaml;Styles\Theme\Default.xaml;Styles\UI\AddButton.xaml;Styles\UI\BackButton.xaml;Styles\UI\Button.xaml;Styles\UI\DeleteButton.xaml;Styles\UI\Label.xaml;Styles\UI\ListView.xaml;Styles\UI\RowDefinition.xaml;Styles\UI\RowDefinitionNone.xaml;Styles\UI\TextBlock.xaml;Styles\UI\TextBox.xaml;Styles\UI\WrapPanel.xaml;
+198-1127337667
+MainWindow.xaml;Pages\AddPatientPage.xaml;Pages\AppoinmentPage.xaml;Pages\EditInfoPage.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\RegistrationPage.xaml;Styles\Theme\DarkTheme.xaml;Styles\Theme\Default.xaml;Styles\UI\AddButton.xaml;Styles\UI\BackButton.xaml;Styles\UI\Button.xaml;Styles\UI\DeleteButton.xaml;Styles\UI\Label.xaml;Styles\UI\ListView.xaml;Styles\UI\Menu.xaml;Styles\UI\MenuItem.xaml;Styles\UI\RowDefinition.xaml;Styles\UI\RowDefinitionNone.xaml;Styles\UI\TextBlock.xaml;Styles\UI\TextBox.xaml;Styles\UI\WrapPanel.xaml;
 
 False
 

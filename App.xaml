@@ -18,6 +18,8 @@
                 <ResourceDictionary Source="/Styles/UI/RowDefinitionNone.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/AddButton.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/DeleteButton.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/Menu.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/MenuItem.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
